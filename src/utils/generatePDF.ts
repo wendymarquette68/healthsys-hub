@@ -31,7 +31,7 @@ function drawFooter(doc: jsPDF, pageNum: number) {
   const y = PAGE_HEIGHT - 10;
   doc.setFontSize(8);
   doc.setTextColor(150, 150, 150);
-  doc.text('Towson University · Department of Health Sciences · HLTH 207', MARGIN, y);
+  doc.text('Department of Health Sciences · HLTH 207', MARGIN, y);
   doc.text(String(pageNum), PAGE_WIDTH - MARGIN, y, { align: 'right' });
 }
 

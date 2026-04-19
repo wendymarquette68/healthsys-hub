@@ -218,7 +218,7 @@ export default function ReflectionExport({ student, results }: Props) {
       </main>
 
       <footer className="text-center pb-6 text-slate-500 text-xs">
-        Towson University · Department of Health Sciences · HLTH 207
+        Department of Health Sciences · HLTH 207
       </footer>
     </div>
   );

@@ -7,7 +7,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-br from-slate-800 to-slate-900 flex flex-col">
       <header className="px-6 pt-8 pb-4 text-center">
         <div className="inline-block bg-yellow-400 text-slate-900 text-xs font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-widest">
-          Towson University · HLTH 207
+          HLTH 207
         </div>
         <h1 className="text-3xl md:text-4xl font-extrabold text-white leading-tight">
           HealthSys Activity Hub
@@ -78,7 +78,7 @@ export default function Home() {
       </main>
 
       <footer className="text-center pb-6 text-slate-500 text-xs">
-        Towson University · Department of Health Sciences · HLTH 207
+        Department of Health Sciences · HLTH 207
       </footer>
     </div>
   );
